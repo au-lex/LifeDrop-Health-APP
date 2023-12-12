@@ -206,6 +206,206 @@ body {
   }
 }
 
+
+
+
+
+/* by aulex ----whylife saver */
+
+
+.whyLife-drop {
+  background: url(../images/Testi-img/Vector\ \(1\).png);
+  width: 100%;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.textdesc  {
+  text-align: center;
+  width: 100%;
+} 
+
+.textdesc h1  {
+  padding: 1rem 0;
+  color:#4EAB8C;
+  font-size: 4rem;
+  
+} 
+
+.textdesc p {
+  
+  /* width: 50%; */
+  text-align: center;
+  font-size: 1.5rem;
+} 
+
+.whylife-cardContainer  {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  flex-wrap: wrap;
+
+} 
+
+
+.whylife-card  {
+    width: 350px;
+    height: 320px;
+    background-color: #D4DEED;
+    border-radius: 10px;
+   padding-top: 4rem;
+   /* margin-right: 1rem; */
+   padding-right: 2rem;
+   padding-left: 2rem;
+   /* margin-bottom: 2rem; */
+
+} 
+
+.whylife-card  h2 {
+ font-size: 22px;
+ line-height: 28px;
+ padding-bottom: 2rem;
+
+} 
+
+
+.card1  {
+ 
+background-color: #D8ECEF ;
+margin: 1rem 1rem;
+
+
+} 
+
+.card2  {
+ 
+  background-color:#A1D2DE ;
+ 
+  
+  } 
+
+
+.whylifeimg  {
+
+  padding-bottom: .8rem;
+
+} 
+
+
+.test-generalCon {
+  display: flex;
+ justify-content: center;
+ padding-top: 2rem;
+ flex-wrap: wrap; 
+ width: 100%;
+ background-color: #D8ECEF;
+ margin-top: 1rem;
+} 
+
+.whylife-testimonialContainer  {
+  height: 180vh;
+   display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  flex-wrap: wrap; 
+  width: 100%;
+
+
+} 
+
+.testiCard  {
+
+ width: 320px;
+ height: 550px;
+ background-color:white;
+
+ border-radius: 10px;
+ position: relative;
+ margin: 2rem 2rem;
+} 
+
+
+
+.remark  {
+
+  width: 80px;
+  height: 80px;
+  background-color:#A1D2DE;
+position: absolute;
+  border-radius: 50%;
+  font-size: 20px;
+  
+  left: 12rem;
+  top: -2.8rem;
+} 
+
+
+.remark  h1 {
+
+ 
+  font-size: 4rem;
+  color: #3AA17E;
+ 
+} 
+.test-header {
+
+ margin-top: 4rem;
+  font-size: 2.8rem;
+
+ 
+} 
+
+.testi-Desc  {
+
+ 
+  
+  margin-top: 8rem;
+  padding: 0rem .5rem;
+  /* padding-left: 1rem; */
+  /* text-align: center; */
+ 
+} 
+
+.testi-Desc p  {
+
+ /* text-align: left; */
+ line-height: 28px;
+  font-size: 17.8px;
+  text-align: center;
+ 
+} 
+
+.testi-name
+{
+
+ 
+   font-size: 17.8px;
+   text-align: center;
+  
+} 
+
+.testimg  {
+
+margin-top: 2.8rem;
+width: 150px;
+height: 150px;
+
+margin-left: 8rem;
+ 
+} 
+
+.testimg img  {
+
+width: 100%;
+     
+   } 
+
+   /* by aulex ----whylife saver */
+
+
 /* how-it-works styling */
 
 .h-title{
@@ -266,7 +466,8 @@ h3{
 }
 
 .cta{
-  background:#D8ECEF;
+ 
+  margin-top: 58rem;
 }
 
 .cta-content{
@@ -334,3 +535,5 @@ h3{
 .ctaimg img {
   width: 100%;
 }
+
+
