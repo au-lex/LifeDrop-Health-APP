@@ -806,9 +806,9 @@
   }
 }
 
-html {
+/* html {
   font-size: 62.5%;
-}
+} */
 
 body {
   font-family: "Poppins", sans-serif;
@@ -1007,6 +1007,64 @@ body {
   }
 }
 
+/* About Us Section Starts */
+.about-us {
+  font-family: "Poppins", sans-serif;
+}
+.about-us .container {
+  width: 1250px;
+  margin: auto;
+  display: flex;
+  gap: 8rem;
+  height: 40rem;
+}
+.about-us .container .images {
+  position: relative;
+  width: 40rem;
+  height: 100%;
+  flex: 1.2;
+}
+.about-us .container .images .right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.about-us .container .images .left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.about-us .container .write-up {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+}
+.about-us .container .write-up h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+.about-us .container .write-up p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin: 1.25rem 0;
+}
+.about-us .container .write-up button {
+  padding: 1rem 2.25rem;
+  border-radius: 0.5rem;
+  background-color: #3aa17e;
+  border: none;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* About Section Ends  */
+
+/* by aulex ----whylife saver */
+
+.whyLife-drop {
+  /* background: url('../images/Testi-img/Vector\ \(1\).png'); */
+}
 /* by aulex ----whylife saver */
 
 .whyLife-drop {
@@ -1277,6 +1335,111 @@ h3 {
 .ctaimg img {
   width: 100%;
 }
+
+/* FAQ Section Starts */
+.faq {
+  font-family: "Poppins", sans-serif;
+}
+.faq .container {
+  width: 63.75rem;
+  margin: 6.25rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.faq .container > h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.25rem;
+}
+.faq .container .faqs .faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0.65rem;
+  border-top: 1px solid #ccc;
+  font-size: 1.25rem;
+}
+.faq .container .faqs .faq-header h2 {
+  font-size: 1.25rem;
+}
+.faq .container .faqs .faq-header i {
+  transition: transform 0.1s ease-in-out;
+}
+.faq .container .faqs .faq-header i.icon-open {
+  transform: rotate(180deg);
+}
+.faq .container .faqs .faq-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d8ecef;
+  color: #8a8c97;
+  font-size: 1.125rem;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.1s ease-in-out;
+}
+.faq .container .faqs .faq-body p {
+  width: 95%;
+}
+.faq .container .faqs .faq-body.body-open {
+  height: 140px;
+}
+.faq .container .faqs .faq-header.faq-open {
+  border-left: 0.25rem solid green;
+}
+/* FAQ Section Ends */
+
+/* MEDIA QUERIES */
+@media (max-width: 640px) {
+  /* About Us Section Starts */
+  .about-us .container {
+    margin: 5rem 0;
+    display: block;
+    width: 100%;
+    height: auto;
+    background: #4eab8c;
+  }
+  .about-us .container .images {
+    position: static;
+    width: 100%;
+  }
+  .about-us .container .images .left {
+    display: none;
+  }
+  .about-us .container .images .right {
+    position: static;
+    width: 100%;
+  }
+  .about-us .container .write-up {
+    display: block;
+    margin: 0 16px;
+  }
+  .about-us .container .write-up button {
+    width: 100%;
+  }
+  /* About Us section Ends */
+  /* FAQ Section Starts */
+  .faq {
+    margin: 0 16px;
+  }
+  .faq .container {
+    width: 100%;
+  }
+  .faq .container .faqs .faq-header h2 {
+    width: 90%;
+  }
+  /* FAQ Section Ends */
+}
+@media (max-width: 430px) {
+  .faq .container .faqs .faq-body.body-open {
+    height: 200px;
+  }
+}
+/* FAQ ENDS HERE */
+
+/* login/ signup by aulex */
 
 /* login/ signup by aulex */
 
