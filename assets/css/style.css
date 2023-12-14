@@ -1,0 +1,38 @@
+
+
+
+/* footer styling*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh; 
+}
+
+.about-us {
+    text-align: left;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links div {
+    margin: 0 10px;
+    color: #fff;
+}
