@@ -319,12 +319,12 @@ margin: 1rem 1rem;
 .testiCard  {
 
  width: 320px;
- height: 550px;
+ height: 600px;
  background-color:white;
 
  border-radius: 10px;
  position: relative;
- margin: 2rem 2rem;
+ margin: 1rem 2rem;
 } 
 
 
@@ -413,6 +413,7 @@ width: 100%;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 40px;
   text-align: center;
+  
 }
 
 
@@ -475,6 +476,7 @@ h3{
   display:flex;
   justify-content: space-between;
   padding: 0 5rem;
+  
 }
 
 .cta-info{
@@ -528,6 +530,7 @@ h3{
 }
 
 .ctaimg {
+
   width: 550px;
   height: 550px;
 }
@@ -543,7 +546,7 @@ h3{
 
 .loginModal  {
   
-    display: none;
+    /* display: none; */
     position: fixed;
     z-index: 1;
     left: 0;
@@ -581,7 +584,7 @@ justify-content: center;
 
 .signUPModal  {
   
-  display: none;
+  /* display: none; */
   position: fixed;
   z-index: 1;
   left: 0;
@@ -630,6 +633,7 @@ input   {
 
  .sheader   {
  text-align: center;
+ margin-top: 6rem;
    }
 
    .rel  {
@@ -739,3 +743,145 @@ display: flex;
   width: 100%;
   height: auto;
  }
+
+
+
+
+ /* profile-dashboard by aulex */
+.profileCon {
+  display: flex;
+}
+
+.profileSidebar {
+  width: 20%;
+  height: 120vh;
+  background-color: #3AA17E;
+
+}
+
+.profileLinks  {
+ margin-top: 8rem;
+ /* padding-left: 2rem;  */
+}
+
+.profileLinks li {
+list-style: none;
+font-size: 15px;
+margin-bottom: 2.8rem;
+font-weight: 400;
+text-transform: capitalize;
+/* line-height: 25px; */
+color: #fffefe;
+padding-left: 1rem;
+
+}
+
+li:nth-of-type(1) {
+background-color: #fffefe;
+  text-align: center;
+  padding: .5rem 0;
+  color: #333;
+ 
+}
+
+.plogo {
+  padding-top: 1rem;
+}
+
+.profileHome{
+  width: 80%;
+  height: 100vh;
+  background-color: #fffefe;
+
+}
+
+.prfheader {
+  display: flex; 
+  justify-content: space-between;
+  padding: 1rem 8rem;
+}
+
+.mainProfike {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+
+.ppfr {
+  width: 80%;
+  min-height: 100vh;
+ border-radius: 10px;
+  border: 1px solid black;
+}
+
+.profileimgCOntainer {
+  padding-top: 4rem;
+display: flex;
+justify-content: center;
+}
+
+.profileimg {
+width: 100px;
+height: 100px;
+
+border-radius: 50%;
+margin-left: 4rem;
+}
+
+.profileimg img {
+ width: 100%;
+ height: auto;
+  border-radius: 50%;
+  }
+
+.profiledesc {
+
+}
+.profiledesc h1 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+.profiledesc  button{
+   background-color: #3AA17E;
+   outline: none;
+   border: none;
+   width: 60%;
+   padding: 1rem 1rem;
+   color: #FFF;
+   font-weight: 600;
+   font-size: 186x;
+   border-radius: 5px;
+   margin-left: 2.5rem;
+}
+
+.pr-header {
+  padding-left: 4rem;
+  font-weight: 600;
+  padding-top: 2rem;
+}
+
+.perinputController {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* background-color: red; */
+  padding: 1rem 4rem;
+}
+
+.personalINput {
+
+}
+
+.personalINput input {
+  /* width: 80%; */
+  padding: 1rem 2rem;
+}
+
+
+.ifname {
+  display: flex;
+}
+  /* profile-dashboard by aulex */
