@@ -1,8 +1,14 @@
 
 
 
+document.addEventListener('DOMContentLoaded', () => {
+  const openbar = document.querySelector('.menubarr');
+  const sidebar = document.querySelector('.sidebar');
 
-
+  openbar.addEventListener('click', () => {
+      sidebar.classList.toggle('sideopen');
+  });
+});
 
 
 
