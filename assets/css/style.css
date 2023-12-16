@@ -18,6 +18,14 @@
   --white: #fff;
   --Black-04: #555;
 }
+
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffff;
+  /* overflow: hidden; */
+}
 /* Reset and create logo and circle */
 .gen-circle {
   background: linear-gradient(
@@ -811,10 +819,6 @@
   font-size: 62.5%;
 } */
 
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: #ffff;
-}
 
 
 .mobile {
@@ -3017,7 +3021,7 @@ footer {
 @media only screen and (max-width: 425px) { 
 
   body{ 
-/* overflow-x: hidden; */
+overflow-x: hidden;
   } 
   .nav-bar {
     display: none;
@@ -3392,7 +3396,7 @@ footer {
 @media only screen and (max-width: 390px) { 
 
   body{ 
-/* overflow-x: hidden; */
+overflow-x: hidden;
   } 
   .nav-bar {
     display: none;
@@ -3427,10 +3431,11 @@ footer {
   }
   .right-hero-section {
     padding-top: 1rem;
-    width: 2900px;
+    width: 400px;
     height: 200px;
     /* display: flex; */
     order: -1;
+    overflow: hidden;
   }
 
   .mobile {
@@ -3449,21 +3454,22 @@ footer {
   .sidebar  {
    
     width: 100%;
-    height: 40rem;
+    height: 100vh;
     position: absolute;
     top: 4rem;
-    right: -40rem;
+      background-color: white;
+    right: 0rem;
     transition: .6s ease-in-out;
-
+display: none;
      }
 
 
      .sideopen {
-      display: block;
+      /* display: block; */
       background-color: white;
     width: 100%;
     height: 40rem;
-    position: absolute;
+    /* position: absolute; */
     top: 4rem;
     display: block;
     right: 0rem;
@@ -3579,6 +3585,387 @@ footer {
   background-color: #d8ecef;
   margin-top: 0rem;
   height: 100vh;
+  /* display: none; */
+}
+
+.cta-content {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.cta-info {
+  display: flex;
+  width: 479px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.cta-text {
+  color: #333;
+ 
+  font-size: 20px;
+ padding-top: 5rem;
+  font-weight: 600;
+  line-height: 36px;
+ 
+}
+
+.cta-p {
+ 
+  font-size: 18px;
+ 
+  font-weight: 400;
+ 
+  color: #333;
+}
+
+.cta-btn {
+  display: flex;
+  padding: 16px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2rem;
+  background: #3aa17e;
+  color: #fff;
+  
+  font-size: 20px;
+ 
+  font-weight: 700;
+
+ 
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.ctaimg {
+  width: 550px;
+  height: 550px;
+  /* display: none; */
+}
+
+.ctaimg img {
+  width: 100%;
+}
+
+
+  
+.hero-h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  /* line-height: 5rem; */
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+
+.right-hero-section {
+  padding-top: 4rem;
+  width: 500px;
+  height: 400px;
+}
+.right-hero-section img {
+  width: 100%;
+}
+
+
+.paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  
+  width: 100%;
+  padding-bottom: 2rem; 
+  padding-right: 0rem;
+}
+
+footer {
+  color: black;
+  /* padding: 20px; */
+  display:flex;
+  margin-top: 6rem;
+  /* align-items: left; */
+  justify-content: space-between;
+  min-height: 50vh;
+  flex-wrap: wrap;
+    width: 100%;
+}
+
+.faq .container {
+  padding: 0 0rem;
+ 
+}
+
+.grid {
+  display: flex; 
+  justify-content: space-between;
+  /* background-color: blue; */
+  padding: 2rem 0rem;
+ } 
+
+ .dott  {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  
+  }
+
+  .loginModal {
+    /* display: none; */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0rem;
+  
+    background: #fffefe;
+  }
+  .modal-content {
+    background: #fffefe;
+    padding: 0 10px;
+  
+    width: 100%;
+    height: 180vh;
+  }
+  .modal-content2 {
+    background: #fffefe;
+    padding: 0 10px;
+  
+    width: 100%;
+    height: 20vh;
+  }
+
+  .loginCON {
+    /* padding: 0 20px; */
+    display: block;
+    /* display: block; */
+    justify-content: center;
+    flex-wrap: wrap;
+   
+  }
+  
+  .signupCon {
+    /* margin: 15% auto;  */
+    background: #fffefe;
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    width: 100%;
+    /* padding: 0 8rem; */
+  }
+
+  .sheader {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 390px) { 
+
+  body{ 
+overflow-x: hidden;
+  } 
+  .nav-bar {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-top: 2rem;
+    
+  } 
+  .life2 {
+    display: block;
+    width: 150px;
+    height: 20px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+  }
+
+
+  
+ 
+
+  .hero-section {
+    display: flex;
+    justify-content: center;
+    padding: 0rem 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow-x: hidden;
+    /* order: 2; */
+    
+  }
+  .right-hero-section {
+    padding-top: 1rem;
+    width: 400px;
+    height: 200px;
+    /* display: flex; */
+    order: -1;
+    overflow: hidden;
+  }
+
+  .mobile {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0rem 1rem; */
+    /* position: relative; */
+  }
+
+   .menubarr {
+   font-size: 2rem;
+   padding-top: 1rem;
+   padding-right: 1rem;
+  }
+
+  .sidebar  {
+   
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 4rem;
+      background-color: white;
+    right: 0rem;
+    transition: .6s ease-in-out;
+display: none;
+     }
+
+
+     .sideopen {
+      /* display: block; */
+      background-color: white;
+    width: 100%;
+    height: 40rem;
+    /* position: absolute; */
+    top: 4rem;
+    display: block;
+    right: 0rem;
+    }
+
+    .navv  li a
+    {
+      
+    }
+    
+    .na
+    {
+      
+      display: block;
+    list-style: none;
+    text-align: center;
+    margin: 2rem 0;
+   
+  }
+
+  .na a
+  {
+      color: #000009;
+      font-weight: 600;
+   display: block;
+   list-style: none;
+   text-align: center;
+   text-decoration: none;
+  
+ }
+ 
+  
+  .hero-h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    /* line-height: 5rem; */
+    width: 100%;
+    /* background-color: red; */
+    padding-bottom: 0rem;
+    margin-top: -2.5rem;
+  }
+
+
+  .h-title {
+    color: #333;
+    margin-top: 1rem;
+    margin-bottom: 40px;
+    text-align: center;
+    /* background-color: red; */
+  }
+  .about-us .container {
+    width: 100%;
+    margin-top: 2rem;
+   
+    display: flex;
+    gap: 0rem;
+    height: 66rem;
+  justify-content: space-between;
+    padding: 0 0rem;
+    /* background-color: red; */
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .images {
+    position: relative;
+    width: 350px;
+    height: 250px;
+  
+    
+  }
+
+  .about-us .container .write-up {
+    display: block;
+    align-items: center;
+    flex: 1;
+    width:100%;
+    margin-top: 15rem;
+    padding: 0 1rem;
+    /* height: 100%; */
+  }
+
+  .right {
+    position: absolute;
+    top: 12.8rem;
+    right: 0;
+    left: 1rem;
+  }
+  
+  
+  .left {
+    position: absolute; 
+   
+    left: 1rem;
+  }
+
+
+
+
+
+  .whylife-testimonialContainer {
+   height: 300vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 6rem;
+  }
+  
+  
+.cta {
+  /* margin-top: 58rem; */
+  background-color: #d8ecef;
+  margin-top: 0rem;
+  height: 140vh;
   /* display: none; */
 }
 
