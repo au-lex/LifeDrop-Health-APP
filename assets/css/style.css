@@ -386,13 +386,12 @@ body {
 
   color: var(--green);
  
-   font-weight: 700;
-   cursor: pointer;
+   
  } 
 
 .error-btn:hover {
   background-color: var(--white);
-  border: 1px solid var(--green);
+  border: 1.5px solid var(--green);
   color: var(--green);
   transition: 0.5s ease-in-out;
 }
