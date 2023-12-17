@@ -67,13 +67,13 @@
             const users = JSON.parse(localStorage.getItem('users')) || [];
 
             if (!email) {
-                showToast('Please enter your email.', 'error');
+                showToast('Please Enter your email.', 'error');
                 return;
             }
 
             // Validate if the password is empty
             if (!password) {
-                showToast('Please enter your password.', 'error');
+                showToast('Please Enter your password.', 'error');
                 return;
             }
 
@@ -81,7 +81,7 @@
 
             if (user) {
                 showToast('Login successful!', 'success');
-                // Redirect to the welcome page after successful login
+                
                 window.location.href = 'userP.html';
             } else {
                 showToast('Invalid email or password. Please try again or sign up.', 'error');
