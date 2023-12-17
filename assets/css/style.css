@@ -371,6 +371,25 @@ body {
   cursor: pointer;
 }
 
+.error-btn a{
+  
+ text-decoration: none;
+ 
+  color: var(--white);
+  font-weight: 700;
+  cursor: pointer;
+} 
+
+
+.error-btn a:hover {
+  
+
+  color: var(--green);
+ 
+   font-weight: 700;
+   cursor: pointer;
+ } 
+
 .error-btn:hover {
   background-color: var(--white);
   border: 1px solid var(--green);
