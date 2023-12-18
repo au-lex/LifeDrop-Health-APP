@@ -917,7 +917,7 @@ body {
 .hero-section {
   display: flex;
   justify-content: space-between;
-  padding: 8rem 4rem;
+  padding: 12rem 4rem;
   width: 100%;
   overflow-x: hidden;
  
@@ -1380,6 +1380,24 @@ h3 {
   color: #333;
 }
 
+
+button {
+ 
+
+  
+
+  cursor: pointer;
+}
+
+.cta-btn a {
+ 
+  background: #3aa17e;
+  text-decoration: none;
+  color: #fff;
+  
+
+  cursor: pointer;
+}
 .cta-btn {
   display: flex;
   padding: 16px 36px;
@@ -1543,6 +1561,13 @@ input {
   position: absolute;
   top: 1rem;
   left: 1.5rem;
+  font-size: 16px;
+}
+
+.ot  {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
   font-size: 16px;
 }
 
@@ -6844,6 +6869,21 @@ footer {
     margin-top: 2rem;
     /* background-color: yellow; */
     margin-bottom: 1rem;
+  }
+
+  .icone {
+    position: absolute;
+    top: 1rem;
+    left: .5rem;
+    font-size: 16px;
+  }
+
+  input {
+    padding: 1.5rem 2rem;
+    outline: none;
+    width: 100%;
+    margin-bottom: 2.6rem;
+    border: 1px solid rgb(27, 26, 26);
   }
 
 }

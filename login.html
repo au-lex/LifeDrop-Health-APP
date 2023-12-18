@@ -31,10 +31,16 @@
                     <div class="rel">
                         <span class="icone"><i class="ri-mail-line"></i></span> <input id="loginEmail" type="text" placeholder="Email"> 
                     </div>
-    
                     <div class="rel">
-                        <span class="icone"><i class="ri-key-2-line"></i></span> <input id="loginPassword" type="password" placeholder="Password">
-                    </div>
+                        <span class="icone">
+                          <i class="ri-key-2-line"></i>
+                        </span>
+                        <input id="signupConfirmPassword" type="password" placeholder="Confirm Password">
+                        <span class="ico ot">
+                          <i id="toggleConfirmPassword" class="ri-eye-line" onclick="togglePasswordVisibility('signupConfirmPassword',
+                           'toggleConfirmPassword')"></i>
+                        </span>
+                      </div>
     
                     <section>
                         <div class="agree">
@@ -61,6 +67,24 @@
     <!-- Add these scripts at the bottom of your body section -->
     <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script>
+
+
+
+function togglePasswordVisibility(inputId, eyeIconId) {
+        const passwordInput = document.getElementById(inputId);
+        const eyeIcon = document.getElementById(eyeIconId);
+
+        if (passwordInput.type === 'password') {
+          passwordInput.type = 'text';
+          eyeIcon.classList.remove('ri-eye-off-line');
+          eyeIcon.classList.add('ri-eye-line');
+        } else {
+          passwordInput.type = 'password';
+          eyeIcon.classList.remove('ri-eye-line');
+          eyeIcon.classList.add('ri-eye-off-line');
+        }
+      }
+
         function login() {
             const email = document.getElementById('loginEmail').value;
             const password = document.getElementById('loginPassword').value;
