@@ -2965,7 +2965,7 @@ display: none;
     margin-top: 1rem;
     margin-bottom: 40px;
     text-align: center;
-    /* background-color: red; */
+   
   }
   .about-us .container {
     width: 100%;
@@ -3001,7 +3001,7 @@ display: none;
 
   .right {
     position: absolute;
-    top: 12.8rem;
+    top: 12.6rem;
     right: 0;
     left: 1rem;
   }
@@ -3081,7 +3081,7 @@ display: none;
   background: #3aa17e;
   color: #fff;
   
-  font-size: 20px;
+  font-size: 21px;
  
   font-weight: 700;
 
