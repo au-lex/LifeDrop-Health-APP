@@ -427,16 +427,16 @@ body {
   }
 }
 /* Features styling*/
-.dum {
+/* .dum {
   background-color: #3aa17e;
   width: 100%;
   height: 60px;
   padding: 20px 80px;
-}
+} */
 /*1*/
 .features-container-1 {
   display: flex;
-  background-color: var(--lt-grey-2);
+  /* background-color: var(--lt-grey-2); */
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -2834,7 +2834,7 @@ overflow-x: hidden;
   .right-hero-section {
     padding-top: 1rem;
     width: 400px;
-    height: 200px;
+    height: 400px;
     /* display: flex; */
     order: -1;
     overflow: hidden;
@@ -2919,7 +2919,7 @@ display: none;
     width: 100%;
     /* background-color: red; */
     padding-bottom: 0rem;
-    margin-top: -2.5rem;
+    margin-top: 2.5rem;
   }
 
 
@@ -2956,7 +2956,7 @@ display: none;
     align-items: center;
     flex: 1;
     width:100%;
-    margin-top: 15rem;
+    margin-top: 0rem;
     padding: 0 1rem;
     /* height: 100%; */
   }
