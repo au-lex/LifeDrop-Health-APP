@@ -436,7 +436,7 @@ body {
 /*1*/
 .features-container-1 {
   display: flex;
-  /* background-color: var(--lt-grey-2); */
+  background-color: var(--lt-grey-2);
   height: 100vh;
   display: flex;
   justify-content: center;
