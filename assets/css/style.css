@@ -1823,8 +1823,7 @@ footer .container {
 
 
 
-end of footer */
-
+end of footer */ 
 @media only screen and (max-width:1024px) { 
 
   body{ 
@@ -4153,7 +4152,7 @@ overflow-x: hidden;
   .profileCon {
     display: flex;
     flex-wrap: wrap;
-    /* background-color: blue; */
+    background-color: blue;
   }
 .profileSidebar { 
  display: none;
@@ -4243,7 +4242,7 @@ overflow-x: hidden;
   .hero-section {
     display: flex;
     justify-content: center;
-    padding: 2.8rem 1rem;
+    padding: 0rem 1rem;
     flex-wrap: wrap;
     width: 100%;
     overflow-x: hidden;
@@ -4262,17 +4261,9 @@ overflow-x: hidden;
   .mobile {
     display: flex;
     justify-content: space-between;
-
-    background-color: rgba(216, 236, 229, 0.25);
-    height: 4rem;
-    position: fixed;
-    width: 100%;
-    z-index: 5000000;
-    backdrop-filter: blur(20px);
     /* padding: 0rem 1rem; */
     /* position: relative; */
   }
-
 
    .menubarr {
    font-size: 2rem;
@@ -4616,7 +4607,7 @@ overflow-x: hidden;
   .profileCon {
     display: flex;
     flex-wrap: wrap;
-    /* background-color: blue; */
+    background-color: blue;
   }
 .profileSidebar { 
  display: none;
@@ -4706,7 +4697,7 @@ overflow-x: hidden;
   .hero-section {
     display: flex;
     justify-content: center;
-    padding: 2.8rem 1rem;
+    padding: 0rem 1rem;
     flex-wrap: wrap;
     width: 100%;
     overflow-x: hidden;
@@ -4725,17 +4716,9 @@ overflow-x: hidden;
   .mobile {
     display: flex;
     justify-content: space-between;
-
-    background-color: rgba(216, 236, 229, 0.25);
-    height: 4rem;
-    position: fixed;
-    width: 100%;
-    z-index: 5000000;
-    backdrop-filter: blur(20px);
     /* padding: 0rem 1rem; */
     /* position: relative; */
   }
-
 
    .menubarr {
    font-size: 2rem;
@@ -5168,7 +5151,7 @@ overflow-x: hidden;
   .hero-section {
     display: flex;
     justify-content: center;
-    padding: 2.8rem 1rem;
+    padding: 0rem 1rem;
     flex-wrap: wrap;
     width: 100%;
     overflow-x: hidden;
@@ -5187,17 +5170,9 @@ overflow-x: hidden;
   .mobile {
     display: flex;
     justify-content: space-between;
-
-    background-color: rgba(216, 236, 229, 0.25);
-    height: 4rem;
-    position: fixed;
-    width: 100%;
-    z-index: 5000000;
-    backdrop-filter: blur(20px);
     /* padding: 0rem 1rem; */
     /* position: relative; */
   }
-
 
    .menubarr {
    font-size: 2rem;
@@ -5631,7 +5606,7 @@ overflow-x: hidden;
   .hero-section {
     display: flex;
     justify-content: center;
-    padding: 3rem 1rem;
+    padding: 0rem 1rem;
     flex-wrap: wrap;
     width: 100%;
     overflow-x: hidden;
@@ -5650,13 +5625,6 @@ overflow-x: hidden;
   .mobile {
     display: flex;
     justify-content: space-between;
-
-    background-color: rgba(216, 236, 229, 0.25);
-    height: 4rem;
-    position: fixed;
-    width: 100%;
-    z-index: 5000000;
-    backdrop-filter: blur(20px);
     /* padding: 0rem 1rem; */
     /* position: relative; */
   }
@@ -6094,7 +6062,7 @@ overflow-x: hidden;
   .hero-section {
     display: flex;
     justify-content: center;
-    padding: 2.8rem 1rem;
+    padding: 0rem 1rem;
     flex-wrap: wrap;
     width: 100%;
     overflow-x: hidden;
@@ -6113,17 +6081,9 @@ overflow-x: hidden;
   .mobile {
     display: flex;
     justify-content: space-between;
-
-    background-color: rgba(216, 236, 229, 0.25);
-    height: 4rem;
-    position: fixed;
-    width: 100%;
-    z-index: 5000000;
-    backdrop-filter: blur(20px);
     /* padding: 0rem 1rem; */
     /* position: relative; */
   }
-
 
    .menubarr {
    font-size: 2rem;
@@ -6557,7 +6517,7 @@ overflow-x: hidden;
   .hero-section {
     display: flex;
     justify-content: center;
-    padding: 2.8rem 1rem;
+    padding: 0rem 1rem;
     flex-wrap: wrap;
     width: 100%;
     overflow-x: hidden;
@@ -6576,17 +6536,9 @@ overflow-x: hidden;
   .mobile {
     display: flex;
     justify-content: space-between;
-
-    background-color: rgba(216, 236, 229, 0.25);
-    height: 4rem;
-    position: fixed;
-    width: 100%;
-    z-index: 5000000;
-    backdrop-filter: blur(20px);
     /* padding: 0rem 1rem; */
     /* position: relative; */
   }
-
 
    .menubarr {
    font-size: 2rem;
