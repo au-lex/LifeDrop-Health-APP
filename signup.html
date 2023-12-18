@@ -80,22 +80,27 @@
       
       
               <div class="rel">
-      
-                
-                <span class="icone"><i class="ri-key-2-line"></i>
-                </span>  
-                 <input id="signupPassword" type="password" placeholder="Password">
+                <span class="icone">
+                  <i class="ri-key-2-line"></i>
+                </span>
+                <input id="signupPassword" type="password" placeholder="Password">
+                <span class="ico ot">
+                  <i id="togglePassword" class="ri-eye-line" onclick="togglePasswordVisibility('signupPassword', 'togglePassword')"></i>
+                </span>
               </div>
-      
+          
               <div class="rel">
-      
-                
-                <span class="icone"><i class="ri-key-2-line">
-
-                </i></span>   <input id="signupConfirmPassword" type="password" placeholder="Confirm Password">
+                <span class="icone">
+                  <i class="ri-key-2-line"></i>
+                </span>
+                <input id="signupConfirmPassword" type="password" placeholder="Confirm Password">
+                <span class="ico ot">
+                  <i id="toggleConfirmPassword" class="ri-eye-line" onclick="togglePasswordVisibility('signupConfirmPassword',
+                   'toggleConfirmPassword')"></i>
+                </span>
               </div>
-           
-            
+          
+              
       
               <section>
                 <div class="agree">
@@ -127,6 +132,25 @@
 <!-- Add these scripts at the bottom of your body section -->
 <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 <script>
+
+
+
+function togglePasswordVisibility(inputId, eyeIconId) {
+        const passwordInput = document.getElementById(inputId);
+        const eyeIcon = document.getElementById(eyeIconId);
+
+        if (passwordInput.type === 'password') {
+          passwordInput.type = 'text';
+          eyeIcon.classList.remove('ri-eye-off-line');
+          eyeIcon.classList.add('ri-eye-line');
+        } else {
+          passwordInput.type = 'password';
+          eyeIcon.classList.remove('ri-eye-line');
+          eyeIcon.classList.add('ri-eye-off-line');
+        }
+      }
+
+
   function signup() {
     const firstName = document.getElementById('signupFirstName').value;
     const lastName = document.getElementById('signupLastName').value;
@@ -158,7 +182,7 @@
     users.push(newUser);
     localStorage.setItem('users', JSON.stringify(users));
 
-    showToast('Sign up successful! You will now be redirected to the welcome page.', 'success');
+    showToast('Sign up successful.', 'success');
 
     // Redirect to the welcome page after successful signup
     window.location.href = 'userP.html';
