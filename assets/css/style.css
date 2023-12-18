@@ -850,12 +850,11 @@ body {
   align-content: center;
   padding-top: 1rem;
   background-color: rgba(216, 236, 229, 0.25);
-  height: 8rem;
+ height: 6rem;
   position: fixed;
   width: 100%;
   z-index: 5000000;
   backdrop-filter: blur(20px);
-
 }
 
 .life2 {
@@ -918,9 +917,10 @@ body {
 .hero-section {
   display: flex;
   justify-content: space-between;
-  padding: 15rem 4rem;
+  padding: 8rem 4rem;
   width: 100%;
   overflow-x: hidden;
+ 
   /* flex-wrap: wrap; */
   
 }
@@ -1945,11 +1945,7 @@ overflow-x: hidden;
     justify-content: space-between;
 
     background-color: rgba(216, 236, 229, 0.25);
-    height: 4rem;
-    position: fixed;
-    width: 100%;
-    z-index: 5000000;
-    backdrop-filter: blur(20px);
+   
     /* padding: 0rem 1rem; */
     /* position: relative; */
   }
@@ -2410,12 +2406,7 @@ overflow-x: hidden;
     display: flex;
     justify-content: space-between;
 
-    background-color: rgba(216, 236, 229, 0.25);
-    height: 4rem;
-    position: fixed;
-    width: 100%;
-    z-index: 5000000;
-    backdrop-filter: blur(20px);
+   
     /* padding: 0rem 1rem; */
     /* position: relative; */
   }
@@ -2873,12 +2864,7 @@ overflow-x: hidden;
     display: flex;
     justify-content: space-between;
 
-    background-color: rgba(216, 236, 229, 0.25);
-    height: 4rem;
-    position: fixed;
-    width: 100%;
-    z-index: 5000000;
-    backdrop-filter: blur(20px);
+  
     /* padding: 0rem 1rem; */
     /* position: relative; */
   }
@@ -2965,7 +2951,7 @@ display: none;
     margin-top: 1rem;
     margin-bottom: 40px;
     text-align: center;
-   
+    /* background-color: red; */
   }
   .about-us .container {
     width: 100%;
@@ -3001,7 +2987,7 @@ display: none;
 
   .right {
     position: absolute;
-    top: 12.6rem;
+    top: 12.8rem;
     right: 0;
     left: 1rem;
   }
@@ -3081,7 +3067,7 @@ display: none;
   background: #3aa17e;
   color: #fff;
   
-  font-size: 21px;
+  font-size: 20px;
  
   font-weight: 700;
 
@@ -3336,12 +3322,7 @@ overflow-x: hidden;
     display: flex;
     justify-content: space-between;
 
-    background-color: rgba(216, 236, 229, 0.25);
-    height: 4rem;
-    position: fixed;
-    width: 100%;
-    z-index: 5000000;
-    backdrop-filter: blur(20px);
+   
     /* padding: 0rem 1rem; */
     /* position: relative; */
   }
@@ -3800,10 +3781,7 @@ overflow-x: hidden;
 
     background-color: rgba(216, 236, 229, 0.25);
     height: 4rem;
-    position: fixed;
-    width: 100%;
-    z-index: 5000000;
-    backdrop-filter: blur(20px);
+  
     /* padding: 0rem 1rem; */
     /* position: relative; */
   }
@@ -4139,7 +4117,6 @@ footer {
   }
 
 }
-
 
 
 @media only screen and (max-width: 500px) { 
