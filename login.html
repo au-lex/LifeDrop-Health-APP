@@ -15,8 +15,7 @@
 </head>
 
 <body>
-    <div class="loginodal"> <!-- Corrected class name -->
-
+    <div class="loginodal"> 
         <div class="modal-content">
         
             <div class="loginCON">
@@ -87,7 +86,7 @@ function togglePasswordVisibility(inputId, eyeIconId) {
 
         function login() {
             const email = document.getElementById('loginEmail').value;
-            const password = document.getElementById('loginPassword').value;
+    const password = document.getElementById('signupConfirmPassword').value;
             const users = JSON.parse(localStorage.getItem('users')) || [];
 
             if (!email) {
